@@ -34,7 +34,7 @@ public class CalculatorControllerTests {
         double a = 10.0, b = 15.0;
         when(calculatorService.add(a, b)).thenReturn(25.0);
 
-        mockMvc.perform(get("/add")
+        mockMvc.perform (get("/add")
                         .param("a", String.valueOf(a))
                         .param("b", String.valueOf(b))
                         .contentType(MediaType.APPLICATION_JSON))

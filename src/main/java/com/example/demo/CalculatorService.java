@@ -18,6 +18,6 @@ public class CalculatorService {
 
     public double divide(double a, double b) {
 //        if (b == 0) throw new IllegalArgumentException("Divider cannot be zero.");
-        return a / b; //flacoco catch { approx. 0.7 suspicious point}
+        return a / b; //flacoco{ approx. 0.7 suspicious point}
     }
 }
